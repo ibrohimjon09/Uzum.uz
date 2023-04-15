@@ -1,0 +1,51 @@
+.footer_columns{
+    width: 100%;
+    display: flex;
+    gap: 60px;
+    line-height: 40px;
+    font-family: sans-serif;
+}
+.footer_columns span{
+    font-size: 15px;
+    color: #4D4E59;
+}
+.footer_columns .footer_column4 .footer_download-aplication span{
+    font-size: 22px;
+    margin: 10px;
+    color: black;
+}
+.footer_columns .footer_column4 .footer_social-network span{
+    font-size: 36px;
+}
+.footer_columns .footer_column4 .footer_social-network span:first-child{
+    color: rgb(234, 41, 231);
+}
+.footer_columns .footer_column4 .footer_social-network span:nth-child(2){
+    color: dodgerblue;
+}
+.footer_columns .footer_column4 .footer_social-network span:nth-child(3){
+    color: red;
+}
+.footer_columns .footer_column4 .footer_social-network span:last-child{
+    color: rgb(72, 72, 174);
+}
+@media screen and (max-width: 600px) {
+    .footer_columns{
+        flex-wrap: wrap;
+        height: auto;
+        gap: 10px;
+        justify-content: space-between;
+        padding: 10px 30px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .footer_columns{
+        flex-wrap: wrap;
+        padding: 15px 50px;
+    }
+}
+@media screen and (max-width: 950px) {
+    .footer_columns .footer_column4 h2{
+        font-size: 18px;
+    }
+}
